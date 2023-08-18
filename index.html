@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="text-[15px] bg-clr-grayish-cyan-100">
+    <div class="bg-clr-desaturated-cyan">
+      <img src="../images/bg-header-mobile.svg" alt="" />
+    </div>
+    <main class="my-16 max-w-[85%] mx-auto grid gap-12 -mt-7">
+      <div
+        id="filter-box"
+        class="justify-between hidden p-4 font-bold bg-white rounded-md"
+      >
+        <div class="flex flex-wrap gap-4"></div>
+        <button
+          id="clear-btn"
+          class="transition-all duration-300 text-clr-grayish-cyan-600 hover:text-clr-desaturated-cyan hover:underline hover:underline-offset-2"
+        >
+          Clear
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
