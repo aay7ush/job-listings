@@ -8,7 +8,7 @@ This is a simple Job Listings site built using HTML, Tailwind CSS, and JavaScrip
 
 ## Live Site
 
-Check out the live site [here](https://todo-app-with-dark-theme.netlify.app/).
+Check out the live site [here](https://job-l1stings.netlify.app/).
 
 ## Features
 
